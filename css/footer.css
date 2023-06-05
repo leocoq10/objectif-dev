@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins-Regular;
+  font-family: "Segoe UI", sans-serif;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+footer {
+  position: relative;
+  bottom: 0;
+  height: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 15px;
+  padding: 40px 85px 0 85px;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(/images/header.jpg) no-repeat;
+  background-size: cover;
+}
+
+.footer-sec1 {
+  display: flex;
+}
+
+.link-container {
+  display: inline;
+  margin: 0;
+  width: auto;
+  height: auto;
+}
+
+.link-container a {
+  margin: 25px 0;
+  display: block;
+  width: inherit;
+  list-style: none;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+}
+
+.link-container i{
+    height: 35px;
+    width: 35px;
+    padding: 8px;
+    object-fit: cover;
+    text-align: center;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 100%;
+    margin: 0 15px 0 0;
+}
+
+.smallmail {
+  display: inline;
+  gap: 45px;
+  height: auto;
+  display: inline;
+}
+
+.smallmail h4,
+.link-container h3,
+.contact h3 {
+  padding: 0;
+  font-size: 25px;
+  margin: 15px 0;
+  padding-left: 10px;
+  color: rgb(255, 255, 255);
+  border-left: 10px solid #9a3334;
+}
+
+form {
+  display: inline-block;
+}
+
+.footer-sec1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.email {
+  display: inline;
+  width: 350px;
+  margin-bottom: 25px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 1px rgba(128, 128, 128, 0.281) solid;
+  outline: none;
+  font-size: 18px;
+}
+
+.email::placeholder{
+    font-size: 18px;
+}
+
+textarea {
+  display: block;
+  width: 350px;
+  height: 145px;
+  resize: none;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  border: 1px rgba(128, 128, 128, 0.281) solid;
+  outline: none;
+    padding: 10px 15px;
+}
+
+textarea::placeholder {
+    font-family: 'Segoe UI', sans-serif;
+  font-size: 18px;
+}
+
+.sendmail {
+  display: block;
+  width: 150px;
+  padding: 10px 12px;
+  background-color: #9a3334;
+  color: white;
+  border: none;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+.copyright {
+  color: rgba(216, 216, 216, 0.651);
+  width: 100%;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.copyright i {
+  margin: 0 5px;
+}
+
+.contact {
+  color: white;
+}
+
+.contact p {
+  margin: 25px 0;
+  display: block;
+  width: inherit;
+  list-style: none;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-weight: 450;
+}
+
+.contact i{
+    height: 35px;
+    width: 35px;
+    padding: 8px;
+    object-fit: cover;
+    text-align: center;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 100%;
+    margin: 0 15px 0 0;
+}
