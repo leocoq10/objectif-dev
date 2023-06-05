@@ -22,7 +22,7 @@ footer {
   gap: 15px;
   padding: 40px 85px 0 85px;
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(/images/header.jpg) no-repeat;
+    url(images/header.jpg) no-repeat;
   background-size: cover;
 }
 
